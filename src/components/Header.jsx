@@ -1,7 +1,24 @@
 const Header = () => {
   return (
-    <header>
-      <h1>My App</h1>
+    <header className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20">
+      <div className="container mx-auto px-4 text-center">
+        <div className="inline-block mb-8">
+          <img 
+            src="/vite.svg" 
+            alt="Logo" 
+            className="w-24 h-24 mx-auto mb-4"
+          />
+        </div>
+        <h1 className="text-6xl md:text-7xl font-black mb-6 drop-shadow-lg">
+          Shouto
+        </h1>
+        <p className="text-2xl md:text-3xl mb-8 drop-shadow-md">
+          Desuwa
+        </p>
+        <p className="text-xl md:text-2xl max-w-2xl mx-auto opacity-90">
+          Crafting amazing digital experiences with code, music, and games.
+        </p>
+      </div>
     </header>
   );
 };
