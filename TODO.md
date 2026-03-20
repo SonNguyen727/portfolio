@@ -1,19 +1,12 @@
-# Portfolio Website Completion Plan
+# Task: Add animations to portfolio website
 
 ## Steps:
-- [x] 1. Create src/layouts/MainLayout.jsx (wrapper with Header, children, Footer)
-- [x] 2. Create src/pages/Home.jsx (hero bio section)
-- [x] 3. Enhance src/pages/Games.jsx (games list/cards)
-- [x] 4. Enhance src/pages/Music.jsx (music tracks/projects)
-- [x] 5. Enhance src/pages/Contact.jsx (form + links)
-- [x] 6. Update src/components/Header.jsx (personalized hero)
-- [x] 7. Update src/components/Nav.jsx (fix links, responsive)
-- [x] 8. Update src/components/Footer.jsx (links)
-- [x] 9. Update src/App.jsx (Routes + MainLayout)
-- [x] 10. Update src/main.jsx (render App only)
-- [x] 11. Update index.html (title)
-- [x] 12. Test: npm run dev, check responsive/routing
-- [x] 13. Mark complete
+- [x] 1. Update src/index.css with custom keyframes for fadeInUp and stagger animations.
+- [x] 2. Edit src/components/Header.jsx to add spin-in and slide-up animations to logo and title.
+- [x] 3. Edit src/components/Nav.jsx to enhance hover scale and mobile toggle transitions.
+- [x] 4. Edit src/pages/Home.jsx to add staggered fade-in/slide-up to cards and content.
+- [x] 5. Edit src/layouts/MainLayout.jsx to add page fade-in wrapper.
+- [x] 6. Test animations with `npm run dev`.
+- [x] 7. Complete task.
 
-Progress: Starting step 1.
-
+Plan approved and proceeding step-by-step.

@@ -9,7 +9,9 @@ const MainLayout = ({ children }) => {
       <Nav />
       <Header />
       <main className="flex-grow container mx-auto px-4 py-8">
-        {children}
+        <div className="page-fade-in">
+          {children}
+        </div>
       </main>
       <Footer />
     </div>

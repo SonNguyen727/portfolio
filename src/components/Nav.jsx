@@ -15,7 +15,7 @@ const Nav = () => {
         <button 
           id="navbar-toggle" 
           type="button" 
-          className="inline-flex items-center p-2 ml-4 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+className="inline-flex items-center p-2 ml-4 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 hover:scale-110 transition-transform duration-200"
           onClick={toggleMenu}
         >
           <span className="sr-only">Open main menu</span>
@@ -44,9 +44,9 @@ const Nav = () => {
         <div className="hidden md:flex items-center space-x-8">
           <Link 
             to="/" 
-            className={`px-4 py-2 rounded-full font-semibold transition-all duration-200 ${
+            className={`px-4 py-2 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-md ${
               location.pathname === '/' 
-                ? 'bg-blue-600 text-white shadow-lg' 
+                ? 'bg-blue-600 text-white shadow-lg hover:shadow-xl' 
                 : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
             }`}
           >
@@ -54,9 +54,9 @@ const Nav = () => {
           </Link>
           <Link 
             to="/games" 
-            className={`px-4 py-2 rounded-full font-semibold transition-all duration-200 ${
+            className={`px-4 py-2 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-md ${
               location.pathname === '/games' 
-                ? 'bg-blue-600 text-white shadow-lg' 
+                ? 'bg-blue-600 text-white shadow-lg hover:shadow-xl' 
                 : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
             }`}
           >
@@ -64,9 +64,9 @@ const Nav = () => {
           </Link>
           <Link 
             to="/music" 
-            className={`px-4 py-2 rounded-full font-semibold transition-all duration-200 ${
+            className={`px-4 py-2 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-md ${
               location.pathname === '/music' 
-                ? 'bg-blue-600 text-white shadow-lg' 
+                ? 'bg-blue-600 text-white shadow-lg hover:shadow-xl' 
                 : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
             }`}
           >
@@ -74,9 +74,9 @@ const Nav = () => {
           </Link>
           <Link 
             to="/contact" 
-            className={`px-4 py-2 rounded-full font-semibold transition-all duration-200 ${
+            className={`px-4 py-2 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-md ${
               location.pathname === '/contact' 
-                ? 'bg-blue-600 text-white shadow-lg' 
+                ? 'bg-blue-600 text-white shadow-lg hover:shadow-xl' 
                 : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
             }`}
           >

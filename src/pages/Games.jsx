@@ -3,14 +3,14 @@ import React from 'react';
 const Games = () => {
   const games = [
     {
-      name: 'Valorant',
-      description: 'Competitive FPS - Diamond rank',
-      image: '/vite.svg',
+      name: 'CS2',
+      description: 'Role: Support',
+      image: '/cs2.jpg',
       link: 'https://playvalorant.com'
     },
     {
-      name: 'League of Legends',
-      description: 'MOBA - Main ADC/Support',
+      name: 'Arena Of Valor',
+      description: 'MOBA - Main Support',
       image: '/vite.svg',
       link: 'https://leagueoflegends.com'
     },

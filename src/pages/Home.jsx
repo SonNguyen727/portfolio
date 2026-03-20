@@ -7,7 +7,7 @@ const Home = () => {
         <img 
           src="/vite.svg" 
           alt="Shouto Desuwa" 
-          className="w-32 h-32 rounded-full mx-auto mb-8 shadow-lg"
+          className="w-32 h-32 rounded-full mx-auto mb-8 shadow-lg animate-pulse"
         />
         <h2 className="text-5xl font-bold text-gray-900 mb-4">
           Shouto Desuwa
@@ -15,16 +15,16 @@ const Home = () => {
         <p className="text-xl text-gray-600 mb-8">
           Full Stack Developer & Game Enthusiast | Passionate about Music Production
         </p>
-        <div className="grid md:grid-cols-3 gap-6 mb-12">
-          <div className="bg-white p-6 rounded-lg shadow-md">
+<div className="grid md:grid-cols-3 gap-6 mb-12">
+          <div className="bg-white p-6 rounded-lg shadow-md fade-in-up delay-1 hover:scale-105 transition-transform duration-300">
             <h3 className="text-2xl font-bold mb-2">Web Dev</h3>
             <p>React, Tailwind, Vite expert</p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md">
+          <div className="bg-white p-6 rounded-lg shadow-md fade-in-up delay-2 hover:scale-105 transition-transform duration-300">
             <h3 className="text-2xl font-bold mb-2">Games</h3>
             <p>Gamer & Indie dev</p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md">
+          <div className="bg-white p-6 rounded-lg shadow-md fade-in-up delay-3 hover:scale-105 transition-transform duration-300">
             <h3 className="text-2xl font-bold mb-2">Music</h3>
             <p>Producer & DJ</p>
           </div>
